@@ -1,0 +1,9 @@
+<Config>
+	
+	<!--Determina las ranuras no comprometidas sin ventajas-->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">20</set>
+	
+	<!--Determina el tamaño máximo de la mochila-->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">200</set>
+	
+</Config>
